@@ -7,22 +7,22 @@ public class Main {
 
 	public static void main(String[] args) {
 		/*
-		HelloWorld helloWorld = new HelloWorld(); // µÚÒ»²½
+		HelloWorld helloWorld = new HelloWorld(); // ç¬¬ä¸€æ­¥
 		
-		helloWorld.setName("zhenizhui"); // µÚ¶ş²½
+		helloWorld.setName("zhenizhui"); // ç¬¬äºŒæ­¥
 		
 		helloWorld.hello();
 		*/
 		
-		// Ê¹ÓÃSpring¿ÉÒÔ°ïÎÒÃÇÍê³ÉµÚÒ»²½ºÍµÚ¶ş²½
+		// ä½¿ç”¨Springå¯ä»¥å¸®æˆ‘ä»¬å®Œæˆç¬¬ä¸€æ­¥å’Œç¬¬äºŒæ­¥
 		
-		// 1. ´´½¨SpringµÄIOCÈİÆ÷¶ÔÏó
+		// 1. åˆ›å»ºSpringçš„IOCå®¹å™¨å¯¹è±¡
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
-		// 2.´ÓIOCÈİÆ÷ÖĞ»ñÈ¡ Beans ÊµÀı£¬hwÊÇbeanµÄid
+		// 2.ä»IOCå®¹å™¨ä¸­è·å– Beans å®ä¾‹ï¼Œhwæ˜¯beançš„id
 		HelloWorld helloWorld = (HelloWorld) ctx.getBean("hw");
 		
-		// µ÷ÓÃhello ·½·¨
+		// è°ƒç”¨hello æ–¹æ³•
 		helloWorld.hello();
 		
 		

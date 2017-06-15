@@ -1,10 +1,10 @@
 ### Spring simple demo
 
-ÕâÊÇÒ»¸öSpring hello world µÄÀı×Ó¡£
+è¿™æ˜¯ä¸€ä¸ªSpring hello world çš„ä¾‹å­ã€‚
 
-### ÔËĞĞ
+### è¿è¡Œ
 
-1. ÏÈ½«libÏÂµÄjar°üÌí¼Óµ½classpath
+1. å…ˆå°†libä¸‹çš„jaråŒ…æ·»åŠ åˆ°classpath
 
 2. run as javaApplication
 
